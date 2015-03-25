@@ -13,6 +13,7 @@
 #include "stdio.h"
 #include "HeroLayer.h"
 #include "OperLayer.h"
+#include "InfoAndAnimationLayer.h"
 
 class GameScene : public cocos2d::Scene
 {

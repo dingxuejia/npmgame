@@ -16,6 +16,7 @@
 #include "BaseConfig.h"
 
 #include "BaseData.h"
+#include "BaseFunction.h"
 
 #include "uiTools.h"
 #include "dataTools.h"

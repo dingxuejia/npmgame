@@ -13,6 +13,10 @@ bool GameScene::init()
     _herolayer = HeroLayer::create();
     this->addChild(_herolayer);
     
+    auto infolayer = InfoAndAnimLayer::create();
+    infolayer->addHpShow(HeroBaseData::getInstence()->getHp());
+    this->addChild(infolayer);
+    
     _operlayer = OperLayer::create();
     this->addChild(_operlayer);
     return true;

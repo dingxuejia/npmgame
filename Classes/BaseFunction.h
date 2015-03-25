@@ -13,7 +13,11 @@
 
 class BaseFunction
 {
-    
+public:
+    //int转换为string
+    static std::string inttostring(int int_tmp);
+    //string转换为int
+    static int stringtoint(std::string &str_temp);
 };
 
 #endif /* defined(__pmgame__BaseFunction__) */

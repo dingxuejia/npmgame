@@ -26,8 +26,8 @@ private:
     void rightButtonTouch(Ref* psender, cocos2d::ui::Widget::TouchEventType type);
     void jumpButtonTouch(Ref* psender,cocos2d::ui::Widget::TouchEventType type);
     
-    cocos2d::Menu* _menu;
-    cocos2d::Vector<Node*> _dirNode;
+//    cocos2d::Menu* _menu;
+//    cocos2d::Vector<Node*> _dirNode;
 };
 
 #endif /* defined(__pmgame__OperLayer__) */

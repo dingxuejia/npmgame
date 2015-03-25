@@ -44,6 +44,8 @@ bool HeroLayer::init()
     b2d->addNodeToWorld(floor, b2_staticBody);
     b2d->addNodeToWorld(floor2, b2_staticBody);
     
+    
+    addCustomEventListener();
     this->scheduleUpdate();
     
     return true;

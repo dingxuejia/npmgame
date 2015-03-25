@@ -17,7 +17,21 @@
 class InfoAndAnimLayer:public BaseLayer
 {
 public:
+    void addHpShow(int num);
+    void addPmShow(int num);
+    void addLevelShow(int num);
+    
+    void changeHp(int nowNum);
+    void changePm(int nowNum);
+    
     bool virtual init();
+    CREATE_FUNC(InfoAndAnimLayer);
+private:
+    void addCustomEventListener();
+    void playAnimation(cocos2d::Vec2 pos,cocos2d::Animation* anima);
+    
+    cocos2d::LabelTTF* _hpLabel;
+    cocos2d::LabelTTF* _pmLabel;
 };
 
 #endif /* defined(__npmgame__InfoAndAnimationLayer__) */
