@@ -20,6 +20,8 @@ public:
     static HeroBaseData* getInstence();
     inline int getHp(){return _heroHp;};
     inline void setHp(int hp){_heroHp=hp;};
+    inline int getPm(){return _nowPm;};
+    inline void setPm(int pm){_nowPm=pm;};
     inline int getLevel(){return _nowLevel;};
     inline void setLevel(int lev){_nowLevel=lev;};
     inline bool getJump(){return  _isJump;};

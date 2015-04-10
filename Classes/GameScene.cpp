@@ -15,6 +15,7 @@ bool GameScene::init()
     
     auto infolayer = InfoAndAnimLayer::create();
     infolayer->addHpShow(HeroBaseData::getInstence()->getHp());
+    infolayer->addPmShow(HeroBaseData::getInstence()->getPm());
     this->addChild(infolayer);
     
     _operlayer = OperLayer::create();

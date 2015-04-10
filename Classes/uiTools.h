@@ -15,7 +15,16 @@
 class uiTools
 {
 public:
-    static cocos2d::ui::Button* createButton(const char* normalfile,const char* selectedfile,const char* disablefile,const cocos2d::ui::Button::ccWidgetTouchCallback& callback);
+    static cocos2d::ui::Button* createButton(const char* normalfile,
+                                             const char* selectedfile,
+                                             const char* disablefile,
+                                             const cocos2d::ui::Button::ccWidgetTouchCallback& callback);
+    static cocos2d::ui::TextAtlas* createTextAtlas(std::string value,
+                                                   std::string &charMapFile,
+                                                   int itemWidth,
+                                                   int itemHeight,
+                                                   const std::string &startCharMap);
+    
     static cocos2d::Node* createProgressbar();
     static cocos2d::MenuItem* createMenuItem(const char* type,const char* filename,const char* word,const cocos2d::ccMenuCallback &callback);
 };

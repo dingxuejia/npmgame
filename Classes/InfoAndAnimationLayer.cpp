@@ -18,7 +18,7 @@ bool InfoAndAnimLayer::init()
 
 void InfoAndAnimLayer::addHpShow(int num)
 {
-    std::string str=BaseFunction::inttostring(num);
+    std::string str="HP:"+BaseFunction::inttostring(num);
     _hpLabel = LabelTTF::create(str, "Arial", 20);
     _hpLabel->setPosition(getVisbleSize().width*0.1,getVisbleSize().height*0.9);
     _hpLabel->setColor(Color3B(255,0,0));
@@ -27,7 +27,11 @@ void InfoAndAnimLayer::addHpShow(int num)
 
 void InfoAndAnimLayer::addPmShow(int num)
 {
-    
+    std::string str = "PM:"+BaseFunction::inttostring(num);
+    _pmLabel = Label::createWithSystemFont(str, "Arial", 20);
+    _pmLabel->setPosition(getVisbleSize().width*0.2,getVisbleSize().height*0.9);
+    _pmLabel->setColor(Color3B(255,0,0));
+    this->addChild(_pmLabel);
 }
 
 void InfoAndAnimLayer::addLevelShow(int num)
@@ -42,7 +46,12 @@ void InfoAndAnimLayer::addCustomEventListener()
 
 void InfoAndAnimLayer::changeHp(int nownum)
 {
-    _hpLabel->setString(BaseFunction::inttostring(nownum));
+    _hpLabel->setString("HP:"+BaseFunction::inttostring(nownum));
+}
+
+void InfoAndAnimLayer::changePm(int nowNum)
+{
+    _pmLabel->setString("PM:"+BaseFunction::inttostring(nowNum));
 }
 
 void InfoAndAnimLayer::playAnimation(Vec2 pos, Animation* anima)

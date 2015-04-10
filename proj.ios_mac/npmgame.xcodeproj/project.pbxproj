@@ -12,6 +12,8 @@
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2D6F62841ACBF94900F294A5 /* TextureHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D6F62821ACBF94900F294A5 /* TextureHelper.cpp */; };
+		2D6F62851ACBF94900F294A5 /* TextureHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D6F62821ACBF94900F294A5 /* TextureHelper.cpp */; };
 		2D7793EE1AC2911E00F8704B /* AnimalNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D7793BA1AC2911E00F8704B /* AnimalNode.cpp */; };
 		2D7793EF1AC2911E00F8704B /* AnimalNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D7793BA1AC2911E00F8704B /* AnimalNode.cpp */; };
 		2D7793F01AC2911E00F8704B /* animationTools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D7793BC1AC2911E00F8704B /* animationTools.cpp */; };
@@ -166,6 +168,8 @@
 		1D6058910D05DD3D006BFB54 /* npmgame iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "npmgame iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2D6F62821ACBF94900F294A5 /* TextureHelper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TextureHelper.cpp; sourceTree = "<group>"; };
+		2D6F62831ACBF94900F294A5 /* TextureHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextureHelper.h; sourceTree = "<group>"; };
 		2D7793BA1AC2911E00F8704B /* AnimalNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AnimalNode.cpp; sourceTree = "<group>"; };
 		2D7793BB1AC2911E00F8704B /* AnimalNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimalNode.h; sourceTree = "<group>"; };
 		2D7793BC1AC2911E00F8704B /* animationTools.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = animationTools.cpp; sourceTree = "<group>"; };
@@ -479,6 +483,8 @@
 				2D7793E31AC2911E00F8704B /* otherTools.h */,
 				2D7793EC1AC2911E00F8704B /* uiTools.cpp */,
 				2D7793ED1AC2911E00F8704B /* uiTools.h */,
+				2D6F62821ACBF94900F294A5 /* TextureHelper.cpp */,
+				2D6F62831ACBF94900F294A5 /* TextureHelper.h */,
 			);
 			name = tools;
 			sourceTree = "<group>";
@@ -749,6 +755,7 @@
 				2D7794121AC2911E00F8704B /* MasterNode.cpp in Sources */,
 				2D7793F81AC2911E00F8704B /* BaseLayer.cpp in Sources */,
 				2D7794161AC2911E00F8704B /* otherTools.cpp in Sources */,
+				2D6F62841ACBF94900F294A5 /* TextureHelper.cpp in Sources */,
 				2D7793F61AC2911E00F8704B /* BaseFunction.cpp in Sources */,
 				2D77941E1AC2911E00F8704B /* stdio.cpp in Sources */,
 				2D77940E1AC2911E00F8704B /* HeroNode.cpp in Sources */,
@@ -767,6 +774,7 @@
 				2D7794111AC2911E00F8704B /* MapNode.cpp in Sources */,
 				46880B8919C43A87006E1F66 /* AppDelegate.cpp in Sources */,
 				2D7793F71AC2911E00F8704B /* BaseFunction.cpp in Sources */,
+				2D6F62851ACBF94900F294A5 /* TextureHelper.cpp in Sources */,
 				2D77941B1AC2911E00F8704B /* PlayerInfoLayer.cpp in Sources */,
 				2D77940D1AC2911E00F8704B /* HeroLayer.cpp in Sources */,
 				2D7794151AC2911E00F8704B /* OperLayer.cpp in Sources */,

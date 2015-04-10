@@ -68,6 +68,9 @@ void HeroLayer::addCustomEventListener()
                                                  });
     customEventHelper::createCustomEventListener("Jump", [=](EventCustom* event)
                                                  {
+                                                     if(_animalnode->getPositionY()>50)
+                                                         return;
+                                                     
                                                      _heroBodyDef->ApplyForceToCenter(b2Vec2(0,200), true);
                                                      //_heroBodyDef->SetAwake(false);
                                                  });

@@ -31,7 +31,7 @@ private:
     void playAnimation(cocos2d::Vec2 pos,cocos2d::Animation* anima);
     
     cocos2d::LabelTTF* _hpLabel;
-    cocos2d::LabelTTF* _pmLabel;
+    cocos2d::Label* _pmLabel;
 };
 
 #endif /* defined(__npmgame__InfoAndAnimationLayer__) */

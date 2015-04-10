@@ -110,13 +110,13 @@ void dataTools::addGameDataXml()
     XMLElement* root = doc->NewElement("baseData");
     doc->InsertEndChild(root);// 与LinkEndChild()功能相同
     
-    XMLElement* nodeHp = doc->NewElement(encode("Hp"));
-    XMLElement* nodeLevel = doc->NewElement(encode("Level"));
-    XMLElement* nodePm = doc->NewElement(encode("PmValue"));
+    XMLElement* nodeHp = doc->NewElement("Hp");
+    XMLElement* nodeLevel = doc->NewElement("Level");
+    XMLElement* nodePm = doc->NewElement("PmValue");
     
-    XMLText* hpText = doc->NewText(encode("5"));
-    XMLText* levelText = doc->NewText(encode("1"));
-    XMLText* pmText = doc->NewText(encode("100"));
+    XMLText* hpText = doc->NewText("5");
+    XMLText* levelText = doc->NewText("1");
+    XMLText* pmText = doc->NewText("100");
     
     root->LinkEndChild(nodeHp);
     root->LinkEndChild(nodeLevel);
