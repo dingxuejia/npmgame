@@ -12,6 +12,7 @@
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2D6D6FFD1CC08D6C00394BDC /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D6D6FFC1CC08D6C00394BDC /* libz.tbd */; };
 		2D6F62841ACBF94900F294A5 /* TextureHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D6F62821ACBF94900F294A5 /* TextureHelper.cpp */; };
 		2D6F62851ACBF94900F294A5 /* TextureHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D6F62821ACBF94900F294A5 /* TextureHelper.cpp */; };
 		2D7793EE1AC2911E00F8704B /* AnimalNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D7793BA1AC2911E00F8704B /* AnimalNode.cpp */; };
@@ -168,6 +169,7 @@
 		1D6058910D05DD3D006BFB54 /* npmgame iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "npmgame iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2D6D6FFC1CC08D6C00394BDC /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/lib/libz.tbd; sourceTree = DEVELOPER_DIR; };
 		2D6F62821ACBF94900F294A5 /* TextureHelper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TextureHelper.cpp; sourceTree = "<group>"; };
 		2D6F62831ACBF94900F294A5 /* TextureHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextureHelper.h; sourceTree = "<group>"; };
 		2D7793BA1AC2911E00F8704B /* AnimalNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AnimalNode.cpp; sourceTree = "<group>"; };
@@ -285,6 +287,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D6D6FFD1CC08D6C00394BDC /* libz.tbd in Frameworks */,
 				52B47A471A53D09C004E4C60 /* Security.framework in Frameworks */,
 				1AC6FB30180E99EB004C840B /* libcocos2d iOS.a in Frameworks */,
 				D6B0611B1803AB670077942B /* CoreMotion.framework in Frameworks */,
@@ -370,6 +373,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2D6D6FFC1CC08D6C00394BDC /* libz.tbd */,
 				52B47A461A53D09B004E4C60 /* Security.framework */,
 				D6B0611A1803AB670077942B /* CoreMotion.framework */,
 				503AE11A17EB9C5A00D1A890 /* IOKit.framework */,
